@@ -1,8 +1,8 @@
-h1{
+/*h1{
   background-color:powderblue;
    
 }
-/*.q{
+.q{
   margin-top: 20px;
   background-image: url(https://thumbs.dreamstime.com/b/old-books-wooden-table-library-vintage-style-ai-generated-content-design-background-instagram-facebook-wall-323974717.jpg);
   color:rgb(0, 191, 255);
@@ -11,7 +11,7 @@ h1{
   height: 100%;
   border: 2px solid rgba(255, 255, 255, 0.3);
   border: width 50px;
-}*/
+}
 
 .x{
   color:blue;
@@ -58,7 +58,46 @@ body {
   position: relative;
   z-index: 1; 
 }
- 
+ */
+ *{
+  margin: 0;
+  padding: 0;
+ }
+ #header{
+  background-color: aqua;
+  border:1px solid blue;   
+  left:0px;
+  top:0;
+  padding: 20px;  
+ }
+ nav a {
+    text-decoration: none; 
+    color: black;
+    font-size: 1.2rem;
+    justify-content:flex-end;
+    display:inline-block;
+    padding-left: 20px;
+    position: relative;
+    left:1200px;
+    margin-left:10px;
+  }
+ .foot{
+    border:1px solid blue;
+    
+    position: fixed;
+    bottom:0;
+    width:100%;
+    height:8%;
+    background-color: aqua;
 
- 
- 
+ }
+ #copy{
+  text-align:center;
+  padding: 20px;
+ }
+ #link{
+  border-top:5px;
+ }
+ ul li::before {
+  content: '*'; 
+ }
