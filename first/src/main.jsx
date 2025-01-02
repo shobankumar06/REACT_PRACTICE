@@ -6,6 +6,6 @@ import Cat from './Cat.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <List/> */}
-    <Hen name="water"/>
+    <App />
   </StrictMode>
 )

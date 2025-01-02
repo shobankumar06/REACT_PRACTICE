@@ -1,11 +1,10 @@
 import React from 'react'
 import Halfboil from './Halfboil.jsx'
 
-function Egg({name}){
+function Egg(){
   return (
-    <div>
-      <h1>Egg</h1>
-      <Halfboil name={name}/>
+    <div> 
+      <Halfboil/>
     </div>
   )
 }

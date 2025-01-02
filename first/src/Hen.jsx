@@ -1,10 +1,9 @@
 import React from 'react'
 import Egg from './Egg.jsx'
-function Hen({name}){
+function Hen(){
   return (
-    <div>
-      <h1>Hen</h1>
-      <Egg name={name}/>
+    <div> 
+      <Egg/>
     </div>
   )
 }
